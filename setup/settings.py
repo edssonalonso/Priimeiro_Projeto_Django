@@ -122,6 +122,13 @@ USE_TZ = True
 
 STATIC_URL = 'static/'
 
+#Essa lista 'STATICFILES_DIR' é uma lista que nos criamos, e aqui estamos dizendo
+#Ao DJANGO que, todos os arquivos estaticos (aqui entendido como css) estão nesta pasta
+#Que vamos passar como parâmetro
+STATICFILES_DIRS = [
+
+]
+
 # Default primary key field type
 # https://docs.djangoproject.com/en/4.2/ref/settings/#default-auto-field
 
